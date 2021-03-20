@@ -1,0 +1,83 @@
+/*Basic stuff*/
+body{
+    background-color: #e0fff3;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    color: #002c3a;
+    text-align: center;
+    margin: 4%;
+} 
+nav{
+    text-align: center;
+    margin: 2%;
+}
+nav a{
+    margin: 1%;
+    text-decoration: none;
+    color: #2a4e6c;
+}
+nav a:hover,a:focus{
+    color: #000000;
+}
+nav a.active{
+    color: #696969;
+}
+footer{
+    flex-shrink: 0;
+    text-align: center;
+    margin: 2%;
+}
+/*Index Specific*/
+div.index{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+section.indexface{
+    display:inline-block;
+    height: 20vmax;
+    width: 20vmax;
+    margin: 4vmax;
+}
+#myfaceimg{
+    height: 100%;
+    width: 100%;
+}
+section.indextext{
+    text-align: left;
+    display:inline-block;
+    align-self: center;
+    margin: 4vmax;
+}
+/*Musings Specific*/
+div.musing{
+    text-align: center;
+    color: #242424;
+    font-style: italic;
+    margin: 1%;
+    padding: 2%;
+}
+div.musing p.saidby{
+    font-style: normal;
+}
+/*Photog Specific*/
+div.photog{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+div.photoglandscape img{
+    height: 21vmax;
+    width: 28vmax;
+    margin: 0.5vmax;
+    border-radius: 3vmin;
+    background-color: #000000;
+}
+div.photogportrait img{
+    height: 28vmax;
+    width: 21vmax;
+    margin: 0.5vmax;
+    border-radius: 3vmin;
+    background-color: #000000;
+}
